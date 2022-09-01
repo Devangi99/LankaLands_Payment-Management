@@ -1,0 +1,186 @@
+<!--IT19994406-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Land Sales System</title>
+		<link rel ="stylesheet" href= "../css/styles2.css">
+		<script src="../js/script2.js"></script>
+	</head>
+	
+	<body>
+	
+		<table width="100%" >
+			<tr>
+				<td width ="200px">
+		
+				<img src ="../images/logo.jpg" align = "left" width="200px" height ="200px" alt="Photo not found">
+				</td>
+		
+				<td align ="right">
+			
+					<div>
+					<button type= "button" class="buttons"><a href = "login.html">Login</a></button>
+						<br>
+						<button type= "button" class="buttons"><a href = "signup.html">Sign up</a></button>
+						<br>
+						<button type= "button" class="wishlist"><a href = "wishlist.html">Wish list</a></button>
+						<br>
+					</div>
+			
+					<div class="menu">
+					<a href="home.html"> Home</a>
+						<a href="Lands.html"> Lands </a>
+						<a class ="active" href="#">Sell Your Lands </a>
+						<a href = "news01.html"> News</a>
+						<a href = "aboutus.html">About us</a>
+						<a href = "ContactUs.html">Contact us</a>
+						<input type="text" name="search" placeholder="Search...">
+						
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+		<hr style = "height: 2px ; border-width: 0;  background-color:white">
+		<br>
+		
+		<!--Sell your lands-->
+		
+		<table width = "100%">
+			<td>
+				<div class="backForm">
+					<img src="../images/form.jpg" width="100%" height="100%" style="filter:blur(6px)">
+			
+					<div class="field">
+					
+					<div style="float:left;">
+					<form method="POST" action="../php/viewLands.php">
+						<input type="submit" id="view" name="view" value="View Advertisements">
+					</form>
+					</div>
+					
+					<div style="float:right;">
+					<form method="POST" action="../php/updateLands.php" >
+						<input type="submit" id="update" name="update" value="Update Advertisements">
+					</form>
+					</div>
+					
+					<br>
+					
+					<form method = "POST" action = "../php/deleteLands.php">
+						<h3>Enter your land code to delete:</h3>
+						<input type = "text" id = "no" name = "no">
+						<input type = "submit" id = "delete" name = "delete" value = "Delete Advertisement">					
+					</form>
+					<br>
+					
+						<fieldset style="border:solid black; display:inline-block"  >
+						
+							<legend style="font-size:30px"><b>Fill this form to put an advertisement</legend>							
+							<form action="../php/addLands.php" target="_self" method="POST"><br>
+							
+								<label>Name</label><br>
+								<input class="fill" type="text" id="Sname" name="Sname" placeholder="Enter your full name" required><br><br>
+								
+								<label>Land code</label><br>
+								<input class="fill" type="text" id="Lcode" name="Lcode" placeholder="Enter the given land code" required><br><br>
+				
+								<label>Contact no</label><br>
+								<input class="fill" type="text" id="conNo" name="conNo" pattern="[0-9]{10}" required><br><br>
+						
+								<label>E-mail</label><br>
+								<input class="fill" type="email" id="mail" name="mail"><br><br>
+						
+								<label>Location</label><br>
+								<textarea class="fill" type="text" id="Address" name="Adress" placeholder="Enter land address"></textarea><br><br>
+						
+								<label>Facilities :</label><br>
+								<textarea class="fill" type="text" id="Facilities" name="Facilities" placeholder="Enter atleast 3 facilities"></textarea><br><br>
+						
+								<label>Number of perch</label><br>
+								<input class="fill" type="number" id="pNo" name="pNo" placeholder="Select a number"><br><br>
+						
+								<label>Price</label><br>
+								<input class="fill" type="text" id="price" name="price" placeholder="Enter price per perch"><br><br>
+						
+								<label>I accept privacy policy & terms</b></label>
+								<input type="checkbox" id="policy" name="policy" onclick="enableButton()"><br><br>
+						
+								<input class="subBtn" type="submit" id="sub" name="sub" value="Submit" disabled><br><br>
+			
+							</form>
+						</fieldset>
+						
+					</div>
+				</div>
+			</td>
+			
+	<!--side nav bar-->
+		
+			<td width = "200px" align = "center" valign = "top" style = "background-color: #0e0e3f;">
+				<div align="right">
+					<ul>
+						<li> <a href="newarrival.html">New Arrivals</a></li>
+						<li> <a href="Branches.html"> Branches</a></li>
+						<li> <a href="careers.html">Careers</a></li>
+						<li> <a href="feedback.html">Feedback</a></li>
+						<li> <a href="FAQ.html">FAQ</a></li>
+					</ul>
+				</div>
+				
+				<table class = "tab">
+					<tr>
+						<td style = "padding : 10px 10px 10px 15px ;">
+						<h2><u><b>Support</b></u></h2>
+						<h3>Hotline:</h3>
+						<h4>8.00am to 5.30pm</h4>
+							+94 112 532719
+						<br>
+							+94 710 596282
+						<h3>e-mail:</h3>
+						lankalands@gmail.com
+						<br>			
+						</td>
+					</tr>	
+				</table>
+			</td>
+			
+		</table>
+			
+		<div class="footer">
+		
+			<a href="https://twitter.com/">
+			<img src="../images/twitter.jpg" height="50px" width="50px" alt="Photo not found">	
+			</a>
+			
+			<a href="https://www.facebook.com/">
+			<img src="../images/facebook.jpg" height="50px" width="50px" alt="Photo not found">
+			</a>
+			
+			<a href="https://www.instagram.com/">
+			<img src="../images/insta.jpg" height="50px" width="50px" alt="Photo not found">	
+			</a>
+					
+			<a href="https://www.apple.com/app-store/">
+			<img src="../images/apple.png" height="50px" width="150px" alt="Photo not found">	
+			</a>
+			
+			<a href="https://play.google.com/">
+			<img src="../images/google.png" height="50px" width="150px" alt="Photo not found">
+			</a>
+				
+			<a href="https://www.visa.com.lk/">
+			<img src="../images/visa.png" height="50px" width="80px" alt="Photo not found">
+			</a>
+			
+			<a href="https://www.mastercard.us/">
+			<img src="../images/master.png" height="50px" width="80px" alt="Photo not found">
+			</a>
+			
+			<p class = "copy">Copyright 2020 © Lanka Lands<br/>
+			All rights reserved</p>	
+		</div>
+		
+	</body>
+</html>

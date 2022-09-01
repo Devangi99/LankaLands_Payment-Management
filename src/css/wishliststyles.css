@@ -1,0 +1,214 @@
+
+.menu{
+	overflow: hidden;
+	background-color: #696969;
+	
+}
+
+.menu a{
+	float :left;
+	display: block;
+	color:#F0FFFF;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+body{
+	background-image:url('../images/back7.jpg');
+	background-repeat:repeat-x;
+	
+	
+}
+
+.menu a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+.menu a.active{
+	background-color:#D3D3D3;
+	color: black;
+}
+
+.menu input[type = text]{
+	float:right;
+	padding:6px;
+	border:none;
+	margin-top:8px;
+	margin-right:16px;
+	font-size: 18px;	
+}
+
+.buttons{
+	background-color:#696969;
+	border:2px solid white;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:3px 3px;
+	border-radius:12px;
+}
+
+.wishlist{
+	background-color:black;
+	color:white;
+	border:2px solid white;
+	padding:9px 7px 9px 7px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:14px;
+	margin:5px 3px 10px 5px;
+	border-radius:8px;
+}
+
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	width:200px;
+	background-color: #0e0e3f;
+}
+
+li a{
+	display:block;
+	color:#F0FFFF;
+	text-align:right;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+
+li a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+li a.active{
+	background-color:#D3D3D3;
+	color: black;	
+}
+.tab{
+	float:right; 
+	width:200px;
+	background-color:#0e0e3f;
+	text-align:left;
+	font-size:18px;
+	color:#F0FFFF;
+}
+
+.footer{
+	background-image:url('../images/back3.jpg');
+	bottom:0;	
+	width:100%;
+	padding:10px;
+	
+}
+.copy{
+	font-size:15px;
+	color:white;
+	float:right;
+	padding:10px;
+}
+
+body{
+	font-family:arial;
+	margin:0;
+}
+html{
+	box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+.column{
+	width:30%;
+	float:left;
+	margin-bottom;16px;
+	padding:0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color:skyblue;
+  color: purple;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:red;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: yellow;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

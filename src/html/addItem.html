@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+ 
+<html>
+	<head>
+		<title>Add land item</title>
+		<link rel ="stylesheet" href= "../css/stylesAdd.css">
+		 
+		
+		<script>
+  
+  alert("Add item page is loading");
+
+</script>
+
+	</head>
+	<body>
+	
+	<table width="100%">
+		<tr>
+		<td width =200px>
+		
+		<img src ="../images/logo.jpg" align = "left" width="200px" height ="200px" >
+		</td>
+		
+		<td align ="right">
+		<div>
+			<button type= "button" class="buttons"><a href="login.html">Login</a></button>
+			<br>
+			<button type= "button" class="buttons"><a href="signup.html">Sign up</a></button>
+			<br>
+			<button type= "button" class="wishlist" ><a href="wishlist.html">Wish list</a></button>
+			<br>
+			</div>
+			<div class="menu">
+			<a href="home.html"> Home</a>
+			<a href="Lands.html"> Lands </a>
+			<a href ="SellYourLands.html"> Sell Your Lands </a>
+			<a href = "news01.html"> News</a>
+			<a href = "aboutus.html">About us</a>
+			<a href = "ContactUs.html">Contact us</a>
+			<input type="text" name="search" placeholder="Search...">
+			
+			
+		</div>
+		</td>
+		</tr>
+		</table>
+		<hr style = "height: 2px ; border-width: 0;  background-color:white">
+		<div style="background-image: url('../images/back11.jpg');
+        background-repeat: no-repeat;
+		background-attachment: fixed;"
+		>
+		<br>
+		
+		<table width = "100%">
+		 
+		<td>
+		
+		<center>
+		
+		<h3>Add land item</h3>
+		</center>
+		<div class="card">
+
+ 
+<center>
+   <form method="post" action="../php/submittAddItem.php">
+<label>land type</label><br>
+<input type="text"   name="feild1" style="width:500px;" placeholder="enter land type here" required><br><br>
+Land owner Name<br>
+<input type="text"   name="feild2"style="width:500px;" placeholder="enter Land owner name"required><br><br>
+ 
+
+Description<br>
+<textarea   name=" feild3" rows="10" columns="50"style="width:500px;"></textarea><br><br>
+quantity<br>
+<input type="text" name="feild4"style="width:500px;" placeholder=" perch" required><br><br>
+Price<br>
+<input type="text" name="feild5"style="width:500px;" placeholder="(per one perches)Rs." required><br><br>
+land code<br>
+<input type="code" name="feild6"style="width:500px;" required><br><br>
+ 
+ 
+  <button class="button" onclick="alert(' is it submit??')"> <a href="../php/submittAddItem.php">submit</a></button>
+   
+</form>
+</center>
+</div>
+</div>
+<button type="submit"><a href="../php/wishlist.php">view</a></button>
+
+ 
+
+ 
+	<!--content--></td>
+		<!--side nav bar-->
+		<td width = "200px">
+		<div align="right">
+			<ul>
+				<li> <a href="newarrival.html">New Arrivals</a></li>
+				<li> <a href="Branches.html"> Branches</a></li>
+				<li> <a href="careers.html">Careers</a></li>
+				<li> <a href="feedback.html">Feedback</a></li>
+				<li> <a href="FAQ.html">FAQ</a></li>
+			</ul>
+		</div>
+		<table class = "tab">
+			<tr>
+				<td style = "padding : 10px 10px 10px 15px ;">
+				<h2><u><b>Support</b></u></h2>
+				<h3>Hotline:</h3>
+				<h4>8.00am to 5.30pm</h4>
+					+94 112 532719
+				<br>
+					+94 710 596282
+				<h3>e-mail:</h3>
+				lankalands@gmail.com
+				<br>			
+				</td>
+			</tr>	
+		</table>
+		</td>
+		<!---->
+		<tr></tr>
+	</table>
+	
+		
+	<div class="footer">
+		
+		<a href="https://twitter.com/">
+		<img src="../images/twitter.jpg" height="50px" width="50px">	
+		</a>
+		
+		<a href="https://www.facebook.com/">
+		<img src="../images/facebook.jpg" height="50px" width="50px">
+		</a>
+		
+		<a href="https://www.instagram.com/">
+		<img src="../images/insta.jpg" height="50px" width="50px">	
+		</a>
+		
+		
+		<a href="https://www.apple.com/app-store/">
+		<img src="../images/apple.png" height="50px" width="150px">	
+		</a>
+		
+		<a href="https://play.google.com/">
+		<img src="../images/google.png" height="50px" width="150px">
+		</a>
+		
+		
+		
+		<a href="https://www.visa.com.lk/">
+		<img src="../images/visa.png" height="50px" width="80px">
+		</a>
+		
+		<a href="https://www.mastercard.us/">
+		<img src="../images/master.png" height="50px" width="80px">
+		</a>
+		
+	
+		<p class = "copy">Copyright 2020 © Lanka Lands<br/>
+		All rights reserved</p>	
+		
+		
+	</body>
+</html>

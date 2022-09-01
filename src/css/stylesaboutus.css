@@ -1,0 +1,308 @@
+
+.menu{
+	overflow: hidden;
+	background-color: #696969;
+	
+}
+
+.menu a{
+	float :left;
+	display: block;
+	color:#F0FFFF;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+body{
+	
+	
+	background-image:url('../images/back7.jpg');
+	background-repeat:repeat-x;
+	
+	
+}
+
+.menu a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+.menu a.active{
+	background-color:#D3D3D3;
+	color: black;
+}
+
+.menu input[type = text]{
+	float:right;
+	padding:6px;
+	border:none;
+	margin-top:8px;
+	margin-right:16px;
+	font-size: 18px;	
+}
+
+.buttons{
+	background-color:#696969;
+	border:2px solid white;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:3px 3px;
+	border-radius:12px;
+}
+
+.wishlist{
+	background-color:black;
+	color:white;
+	border:2px solid white;
+	padding:9px 7px 9px 7px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:14px;
+	margin:5px 3px 10px 5px;
+	border-radius:8px;
+}
+
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	width:200px;
+	background-color: #0e0e3f;
+}
+
+li a{
+	display:block;
+	color:#F0FFFF;
+	text-align:right;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+
+li a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+li a.active{
+	background-color:#D3D3D3;
+	color: black;	
+}
+.tab{
+	float:right; 
+	width:200px;
+	background-color:#0e0e3f;
+	text-align:left;
+	font-size:18px;
+	color:#F0FFFF;
+}
+
+.footer{
+	background-image:url('../images/back3.jpg');
+	bottom:0;	
+	width:100%;
+	padding:10px;
+	
+}
+.copy{
+	font-size:15px;
+	color:white;
+	float:right;
+	padding:10px;
+}
+
+ 
+.form  {border :3px solid #f1f1f1;
+       border: 4px solid deepskyblue ;
+	   
+	   }
+.form{
+width:40%;
+height:25%;
+}
+ 
+.form-input{
+  
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+<!--button {
+  background-color:lime;
+  color: red;
+  padding: 14px 20px;
+  margin: 8px ;
+  border: none;
+  cursor: pointer;-->
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color:maroon;
+  color: white;
+}
+
+.imgcontainer {
+  text-align:center;
+  margin: 24px 12px ;
+}
+
+img.log {
+  width: 40%;
+  border-radius: 100px;
+  /* opacity:0.5;  */
+  
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #474e5d;
+  color: aqua;
+}
+.Our-Misson-section{
+	font-family:Bodoni_MT_Black;
+	font-size:20px;
+	font-weight:bold; 
+	color:gray;
+	background-color:white;
+}
+.Our-Vision-section{
+	font-family:Bodoni_MT_Black;
+	font-size:20px;
+	font-weight:bold; 
+	color:gray;
+	background-color:white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 10%;
+  }
+}-->
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

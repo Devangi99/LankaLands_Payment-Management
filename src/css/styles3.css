@@ -1,0 +1,178 @@
+
+.menu{
+	overflow: hidden;
+	background-color: #696969;
+	
+}
+
+.menu a{
+	float :left;
+	display: block;
+	color:#F0FFFF;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+body{
+	background-image:url('../images/back7.jpg');
+	background-repeat:repeat-x;
+	
+	
+}
+
+.menu a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+.menu a.active{
+	background-color:#D3D3D3;
+	color: black;
+}
+
+.menu input[type = text]{
+	float:right;
+	padding:6px;
+	border:none;
+	margin-top:8px;
+	margin-right:16px;
+	font-size: 18px;	
+}
+
+.buttons{
+	background-color:#696969;
+	border:2px solid white;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:3px 3px;
+	border-radius:12px;
+}
+
+.wishlist{
+	background-color:black;
+	color:white;
+	border:2px solid white;
+	padding:9px 7px 9px 7px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:14px;
+	margin:5px 3px 10px 5px;
+	border-radius:8px;
+}
+
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	width:200px;
+	background-color: #0e0e3f;
+}
+
+li a{
+	display:block;
+	color:#F0FFFF;
+	text-align:right;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+
+li a:hover{
+	background-color:#D3D3D3;
+	color:#F0FFFF;
+}
+
+li a.active{
+	background-color:#D3D3D3;
+	color: black;	
+}
+.tab{
+	float:right; 
+	width:200px;
+	background-color:#0e0e3f;
+	text-align:left;
+	font-size:18px;
+	color:#F0FFFF;
+}
+
+.footer{
+	background-image:url('../images/back3.jpg');
+	bottom:0;	
+	width:100%;
+	padding:10px;
+	
+	
+}
+.copy{
+	font-size:15px;
+	color:white;
+	float:right;
+	padding:10px;
+}
+.deco{
+	text-align:center;
+	color:white;
+    background-image:url("../images/back2.jpg");
+	background-repeat:none;
+	width:500px;
+	height:580px;
+	border-radius:10px;
+	position:absolute;
+	
+}
+.submitbutton{
+    background-color:gray;
+	border:2px solid white;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:15px;
+	margin:3px 3px;
+	border-radius:10px;
+	cursor:pointer;
+	width :200px;
+}
+
+input[type=text],input[type=password]{
+	width :450px;
+	height :30px;
+	border :none;
+	background-color :white;
+	cursor : pointer;
+}
+
+label{
+	float : left;
+	padding-left: 15px;
+}
+.deco2{
+	text-align:center;
+	color:white;
+    background-color : #333999;
+	background-repeat:none;
+	width:500px;
+	height:570px;
+	border-radius:10px;
+	position:absolute;
+	
+}
+h1{
+	background-color:#1F305E;
+	color:white;
+}
+h2{
+	cursor:pointer;
+	background-color:#1F305E;
+}
+image{
+	width:500px;
+	height:500px;
+}

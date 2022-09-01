@@ -1,0 +1,44 @@
+<?php
+include_once('../php/signup.php');
+?>
+
+
+<!DOCTYPE html>
+<html>
+
+<!--sign up form-->
+
+<div class = "deco">
+<form method = "post" action = "../php/signup.php">
+<h1>Sign Up</h1>
+<h4>To create a new account please fill this form</h4>
+</br>
+
+<label for="firstName">First Name</label>
+</br>
+<input type="text" placeholder = "First Name" name = "fname" required>
+</br></br>
+<label for="lastName">Last Name</label>
+</br>
+<input type="text" placeholder = "Last Name" name = "lname" required>
+</br></br>
+<label for="Email">Email</label>
+</br>
+<input type="text" placeholder = "Email" name = "email" required>
+</br></br>
+<label for="password">Password</label>
+</br>
+<input type="password" placeholder = "Password" id="password" name = "pwd" required>
+</br></br>
+<label for="Email">Confirm Password</label>
+</br>
+<input type="password" placeholder = "Confirm Password" id="confirmP" name = "c_pwd" required>
+</br></br></br></br>
+<button type="submit" class="submitbutton" onclick="submit()" name = "save" >Submit</button>
+
+</form>	
+</div>	
+
+<!--End of the signup form-->		
+</body>
+</html>
